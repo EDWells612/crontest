@@ -2,7 +2,7 @@ name: Send Twilio Message
 
 on:
   schedule:
-    - cron: '26 21 30 8 *'  # Adjust this to your desired time (in UTC)
+    - cron: '20 21 30 8 *'  # Adjust this to your desired time (in UTC)
 
 jobs:
   build:
