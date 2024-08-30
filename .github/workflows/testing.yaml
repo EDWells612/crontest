@@ -1,8 +1,8 @@
-name: Monthly Cron Job Test
+name: Every 5 Minutes Cron Job Test
 
 on:
   schedule:
-    - cron: '45 21 30 8 *'  # Runs on August 30th at 21:26 UTC
+    - cron: '*/5 * * * *'  # Runs every 5 minutes
 
 jobs:
   test:
