@@ -2,7 +2,7 @@ name: Monthly Cron Job Test
 
 on:
   schedule:
-    - cron: '26 21 30 8 *'  # Runs on August 30th at 21:26 UTC
+    - cron: '35 21 30 8 *'  # Runs on August 30th at 21:26 UTC
 
 jobs:
   test:
